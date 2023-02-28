@@ -1,0 +1,10 @@
+* {
+    background-color: #F5F3EF;
+}
+
+
+.grid-navBar-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+
+}
