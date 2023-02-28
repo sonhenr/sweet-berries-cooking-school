@@ -2,11 +2,65 @@
     background-color: #F5F3EF;
 }
 
+h1, h2, h3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto Serif';
+    margin-bottom: 20px;
+    width: auto;
+    
+}
+
+p {
+    font-family: 'Roboto';
+    margin-top: 0;
+}
+
+/* NAVBAR CODE BELOW */
+
+.grid-logo {
+    display: flex;
+    justify-content: center;
+}
 
 .grid-navBar-container {
     display: grid;
     grid-template-columns: 1fr 1fr 8fr 1fr;
     align-items: center;
     text-align: center;
+    
+    margin: 10px 50px 50px 50px;
+}
 
+.grid-navItem1, .grid-navItem2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* MAINBOX CODE BELOW */
+
+.grid-mainBox-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 50px 50px 50px;
+}
+
+.mainPicture {
+    display: flex;
+    width: 350px;
+}
+
+/* CARDS CODE BELOW */
+
+.grid-cards-container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
