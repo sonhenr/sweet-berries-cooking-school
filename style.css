@@ -37,6 +37,14 @@ p {
     justify-content: center;
 }
 
+#navBar-button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    padding: 5px;
+}
+
 /* MAINBOX CODE BELOW */
 
 .grid-mainBox-container {
@@ -54,9 +62,9 @@ p {
 
 .grid-cards-container {
     display: grid;
-    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
     
-    height: 300px;
+    height: auto;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
@@ -85,3 +93,20 @@ p {
     font-family: 'Roboto Serif';
 }
 
+.card-button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* FOOTER CODE BELOW */
+
+footer {
+    display: flex;
+    background-color: #FEBD2F;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
