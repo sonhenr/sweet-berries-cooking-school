@@ -1,4 +1,4 @@
-* {
+html {
     background-color: #F5F3EF;
 }
 
@@ -55,12 +55,33 @@ p {
 .grid-cards-container {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
-    background-color: #FFFFFF;
-    width: 400px;
+    
     height: 300px;
     align-items: center;
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
-    border-radius: 10px;
 }
+
+.grid-cards {
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+}
+
+.grid-yellow-card {
+    width: 200px;
+    height: 200px;
+    background-color: #FEBD2F;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    font-size: larger;
+    font-family: 'Roboto Serif';
+}
+
