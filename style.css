@@ -16,6 +16,12 @@ p {
     margin-top: 0;
 }
 
+/* CSS Grid and FlexBox aren’t used together to create the layout. */
+
+/* You haven’t used grid template areas in your project. */
+
+/* You haven’t created a functional hamburger menu. */
+
 /* NAVBAR CODE BELOW */
 
 .grid-logo {
@@ -53,6 +59,8 @@ p {
     margin: 0px 50px 50px 50px;
 }
 
+/* Images aren’t responsive */
+
 .mainPicture {
     display: flex;
     width: 350px;
@@ -71,6 +79,7 @@ p {
     margin: 10px;
 }
 
+/* You haven’t imported the icons to make them appear on top of the card with position absolute. */
 .grid-cards {
     width: 200px;
     height: 200px;
@@ -110,3 +119,5 @@ footer {
     justify-content: center;
     padding: 10px;
 }
+
+/* You haven’t added any media queries */
